@@ -2,7 +2,7 @@ TYPE=mod
 BASE=vmassign_groups
 PLUGINTYPE=vmcustom
 ZIPBASE=opentools
-VERSION=1.0
+VERSION=1.1
 
 PLUGINFILES=mod_$(BASE).php mod_$(BASE).xml index.html # mod_$(BASE).script.php 
 
