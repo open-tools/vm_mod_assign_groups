@@ -8,7 +8,7 @@
 	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2</license>
 	<authorEmail>office@open-tools.net</authorEmail>
 	<authorUrl>www.open-tools.net</authorUrl>
-	<version>1.0.0</version>
+	<version>1.1.0</version>
 	<description>Assign Virtuemart product customers to Joomla usergroups according to the products they bought. This admin module allows site admin to batch assign specific products customers to specific Joomla user groups using multiple select list. This admin module works for Joomla 2.5 and 3.x together with VirtueMart 2.x and 3.x. Install it via the regular Joomal installer, then go to module manager, click on the Admin submenu item to list only admin modules. Then enable this module on the cpanel module position. It will then show on your admin Control panel.</description>
 	<files>
 		<filename module="mod_vmassign_groups">mod_vmassign_groups.php</filename>

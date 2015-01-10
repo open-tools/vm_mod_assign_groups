@@ -8,8 +8,8 @@
  **/
 
 defined( '_JEXEC' ) or die( 'Restricted access' );
-$db						= &JFactory::getDBO();	
-$lang 					= &JFactory::getLanguage();
+$db						= JFactory::getDBO();	
+$lang 					= JFactory::getLanguage();
 $langtag 				= $lang->get('tag');
 $dblangtag 				= strtolower(str_replace( '-' , '_' , $langtag ) );
 
