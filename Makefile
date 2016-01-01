@@ -2,7 +2,7 @@ TYPE=mod
 BASE=vmassign_groups
 PLUGINTYPE=vmcustom
 ZIPBASE=opentools
-VERSION=1.1
+VERSION=1.2
 
 PLUGINFILES=mod_$(BASE).php mod_$(BASE).xml index.html # mod_$(BASE).script.php 
 
@@ -18,7 +18,7 @@ ZIPFILE=$(TYPE)_$(ZIPBASE)_$(BASE)_v$(VERSION).zip
 
 zip: $(PLUGINFILES) $(TRANSLATIONS) $(ELEMENTS) $(TMPLFILES)
 	@echo "Packing all files into distribution file $(ZIPFILE):"
-	@zip -r $(ZIPFILE) $(PLUGINFILES) $(TRANSLATIONS) $(ELEMENTS) $(INDEXFILES) $(TMPLFILES) $(ASSETS)
+	@zip -r $(ZIPFILE) $(PLUGINFILES) $(TRANSLATIONS) $(ELEMENTS) $(INDEXFILES) $(TMPLFILES) $(ASSETS) LICENSE.txt
 
 clean:
 	rm -f $(ZIPFILE)
