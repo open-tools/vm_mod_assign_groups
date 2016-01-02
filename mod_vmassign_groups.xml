@@ -27,7 +27,7 @@
 	</config>
 	
 	<updateservers>
-		<server type="extension" name="VM Customers to Joomla Groups Admin Panel Updates"><![CDATA[http://open-tools.net/UpdateServer/index.php?package=Joomla&amp;extension=VMAssignGroups]]></server>
+		<server type="extension" name="VM Customers to Joomla Groups Admin Panel Updates"><![CDATA[http://open-tools.net/UpdateServer/index.php?package=Joomla&amp;extension=VMAssignGroups&amp;file=extension.xml]]></server>
 	</updateservers>
 
 </extension>
